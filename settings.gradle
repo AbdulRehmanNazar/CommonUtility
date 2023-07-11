@@ -13,4 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "CommonUtility"
-include ':app'
+include ':samples'
+include ':ComonUtility'
