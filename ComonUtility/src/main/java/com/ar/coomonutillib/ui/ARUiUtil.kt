@@ -11,7 +11,7 @@ import com.google.android.material.snackbar.Snackbar
  * @Date: 11/07/2023.
  */
 
-class UiUtil {
+class ARUiUtil {
     companion object {
         /**
          * Show Toast
