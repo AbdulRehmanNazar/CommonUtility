@@ -7,6 +7,7 @@ Please reffer to Wikki for more details
 # How to integrate
 
 Add Jitpack into root project gradle
+```
 dependencyResolutionManagement {
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 		repositories {
@@ -14,10 +15,13 @@ dependencyResolutionManagement {
 			maven { url 'https://jitpack.io' }
 		}
 	}
-
+```
  Add the dependency in gradle
- dependencies {
+ ```
+ dependencies 
+ {
 	        implementation 'com.github.AbdulRehmanNazar:CommonUtility:v1.0.1'
-	}
+ }
+```
 
 
