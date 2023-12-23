@@ -11,7 +11,7 @@ import com.ar.coomonutillib.BuildConfig
 class ARLogUtil {
     companion object {
         var SHOW_LOG = true
-        fun show(tag: String = BuildConfig.LIBRARY_PACKAGE_NAME, message: String) {
+        fun show(message: String, tag: String = BuildConfig.LIBRARY_PACKAGE_NAME) {
             if (SHOW_LOG) {
                 Log.d(tag, message)
             }
