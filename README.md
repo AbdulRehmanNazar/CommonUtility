@@ -20,7 +20,7 @@ dependencyResolutionManagement {
  ```
  dependencies 
  {
-	        implementation 'com.github.AbdulRehmanNazar:CommonUtility:{latestVersion}'
+	        implementation 'com.github.AbdulRehmanNazar:CommonUtility:1.0.3'
  }
 ```
 
